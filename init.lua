@@ -6,6 +6,7 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.scrolloff = 10
 
 
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
